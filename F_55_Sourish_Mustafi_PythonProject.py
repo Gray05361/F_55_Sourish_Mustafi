@@ -7,8 +7,7 @@ import sys
 try:
     import matplotlib.pyplot as plt
 except:
-    subprocess.run(['pip', 'install', 'matplo
-    tlib'])
+    subprocess.run(['pip', 'install', 'matplotlib'])
     import matplotlib.pyplot as plt
 
 #prints hyphen
